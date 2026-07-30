@@ -1,0 +1,26 @@
+{
+  "bm25": {
+    "Q01": {"answer_correct": true, "citations_supported": false, "unanswerable_handling_correct": null, "notes": "Answer correct, but the cited chunk was not retrieved."},
+    "Q02": {"answer_correct": false, "citations_supported": false, "unanswerable_handling_correct": null, "notes": "Mixed correct information with an unsupported 180-degree turn; cited checklist chunk did not support the answer."},
+    "Q03": {"answer_correct": true, "citations_supported": true, "unanswerable_handling_correct": null, "notes": "Complete impact sequence matched the reference and citation."},
+    "Q04": {"answer_correct": true, "citations_supported": false, "unanswerable_handling_correct": null, "notes": "Core answer correct; cited findings chunk did not support the stopping, injury, or damage details."},
+    "Q05": {"answer_correct": true, "citations_supported": true, "unanswerable_handling_correct": null, "notes": "Correct count with direct supporting citation."},
+    "Q06": {"answer_correct": false, "citations_supported": null, "unanswerable_handling_correct": null, "notes": "Incorrectly abstained on an answerable multi-hop question."},
+    "Q07": {"answer_correct": false, "citations_supported": null, "unanswerable_handling_correct": null, "notes": "Incorrectly abstained on an answerable multi-hop question."},
+    "Q08": {"answer_correct": true, "citations_supported": true, "unanswerable_handling_correct": null, "notes": "All three injury outcomes correct and directly supported."},
+    "Q09": {"answer_correct": true, "citations_supported": null, "unanswerable_handling_correct": true, "notes": "Correct abstention on an unanswerable question."},
+    "Q10": {"answer_correct": true, "citations_supported": null, "unanswerable_handling_correct": true, "notes": "Correct abstention on an unanswerable question."}
+  },
+  "dense": {
+    "Q01": {"answer_correct": false, "citations_supported": null, "unanswerable_handling_correct": null, "notes": "Incorrectly abstained after dense retrieval failed on the opaque occurrence ID."},
+    "Q02": {"answer_correct": true, "citations_supported": false, "unanswerable_handling_correct": null, "notes": "Answer correct; citation supported only the forced landing, not the complete answer."},
+    "Q03": {"answer_correct": false, "citations_supported": null, "unanswerable_handling_correct": null, "notes": "Incorrectly abstained on an answerable question."},
+    "Q04": {"answer_correct": true, "citations_supported": false, "unanswerable_handling_correct": null, "notes": "Core answer correct; extra maintenance claims were not supported by the cited chunk."},
+    "Q05": {"answer_correct": false, "citations_supported": null, "unanswerable_handling_correct": null, "notes": "Incorrectly abstained on an answerable question."},
+    "Q06": {"answer_correct": false, "citations_supported": false, "unanswerable_handling_correct": null, "notes": "Incorrect person count, difference, and injury outcome; citation was unrelated and not retrieved."},
+    "Q07": {"answer_correct": false, "citations_supported": null, "unanswerable_handling_correct": null, "notes": "Incorrectly abstained on an answerable multi-hop question."},
+    "Q08": {"answer_correct": false, "citations_supported": false, "unanswerable_handling_correct": null, "notes": "Incomplete answer and citation from the wrong investigation."},
+    "Q09": {"answer_correct": true, "citations_supported": null, "unanswerable_handling_correct": true, "notes": "Correct abstention on an unanswerable question."},
+    "Q10": {"answer_correct": true, "citations_supported": null, "unanswerable_handling_correct": true, "notes": "Correct abstention on an unanswerable question."}
+  }
+}

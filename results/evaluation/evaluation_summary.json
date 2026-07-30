@@ -1,0 +1,33 @@
+{
+  "timestamp_utc": "2026-07-30T01:02:40.092326+00:00",
+  "model": "llama3.2:3b",
+  "temperature": 0,
+  "seed": 423,
+  "top_k": 5,
+  "metrics": {
+    "bm25": {
+      "question_count": 10,
+      "answerable_question_count": 8,
+      "hit_rate_at_k": 0.5,
+      "mean_recall_at_k": 0.5,
+      "mean_reciprocal_rank": 0.4,
+      "all_ground_truth_retrieved_rate": 0.5,
+      "citation_format_pass_rate": 0.9,
+      "unanswerable_abstention_rate": 1.0,
+      "mean_retrieval_seconds": 0.0625,
+      "mean_generation_seconds": 4.9509
+    },
+    "dense": {
+      "question_count": 10,
+      "answerable_question_count": 8,
+      "hit_rate_at_k": 0.5,
+      "mean_recall_at_k": 0.4583,
+      "mean_reciprocal_rank": 0.25,
+      "all_ground_truth_retrieved_rate": 0.375,
+      "citation_format_pass_rate": 0.8,
+      "unanswerable_abstention_rate": 1.0,
+      "mean_retrieval_seconds": 0.2151,
+      "mean_generation_seconds": 3.7491
+    }
+  }
+}

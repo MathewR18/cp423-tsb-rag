@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+.idea/
+.vscode/
+data/raw/index.html
+data/raw/reports/*.html
+data/processed/*.jsonl
+data/processed/*.csv
+data/chunks/*.jsonl
+data/chunks/*.json
+data/indexes/*.pkl
+data/indexes/*.npy
+data/indexes/*.json
+results/rag_runs/*.json
+!data/**/.gitkeep

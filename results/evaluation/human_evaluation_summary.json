@@ -1,0 +1,18 @@
+{
+  "bm25": {
+    "overall_answer_accuracy": 0.7,
+    "answerable_question_accuracy": 0.625,
+    "citation_support_rate_when_judged": 0.5,
+    "unanswerable_handling_accuracy": 1.0,
+    "correct_answers": 7,
+    "total_questions": 10
+  },
+  "dense": {
+    "overall_answer_accuracy": 0.4,
+    "answerable_question_accuracy": 0.25,
+    "citation_support_rate_when_judged": 0.0,
+    "unanswerable_handling_accuracy": 1.0,
+    "correct_answers": 4,
+    "total_questions": 10
+  }
+}

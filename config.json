@@ -1,0 +1,22 @@
+{
+  "index_url": "https://www.tsb.gc.ca/eng/rapports-reports/aviation/index.html",
+  "start_date": "2010-01-01",
+  "end_date": "2024-12-31",
+  "document_limit": 300,
+  "request_delay_seconds": 0.15,
+  "request_timeout_seconds": 45,
+  "chunk_size_words": 350,
+  "chunk_overlap_words": 70,
+  "bm25_k1": 1.5,
+  "bm25_b": 0.75,
+  "dense_model": "BAAI/bge-small-en-v1.5",
+  "dense_query_prefix": "Represent this sentence for searching relevant passages: ",
+  "dense_batch_size": 32,
+  "default_top_k": 5,
+  "random_seed": 423,
+  "rag_top_k": 5,
+  "ollama_url": "http://localhost:11434/api/generate",
+  "ollama_model": "llama3.2:3b",
+  "generation_temperature": 0,
+  "generation_max_tokens": 300
+}
