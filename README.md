@@ -140,6 +140,8 @@ The command saves detailed JSONL, a CSV for manual answer/citation judgments, an
 
 ## Evaluation files
 
+An LLM was used to propose candidate questions. As the only team member, I manually read the relevant corpus passages and verified or corrected every question, reference answer, and ground-truth chunk before using the evaluation set.
+
 - `data/evaluation/gold_questions.csv` contains the 10 questions, reference answers, question types, and ground-truth chunk IDs.
 - `results/evaluation/evaluation_results.csv` contains the 20 BM25 and dense RAG runs.
 - `results/evaluation/evaluation_summary.json` contains the automatic retrieval and citation-format metrics.
